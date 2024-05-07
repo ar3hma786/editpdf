@@ -11,8 +11,8 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class PDFRequest {
+public class WordRequest {
 	
-    private String pdfPath;
-    private String newPdfPath;
+	 private String inputFile;
+	    private String outputFile;
 }
